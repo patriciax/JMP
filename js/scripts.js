@@ -1149,3 +1149,14 @@ function readyFunctions() {
     initparallax();
     initNastik();
 }
+
+$(function () {
+    'use strict'
+  
+    $('.menu-panel-root a').on('click', function () {
+      //$('.nav-button').removeClass('cmenu');
+      $('.nav-holder').addClass('but-hol');
+     
+  
+    })
+  })

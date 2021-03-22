@@ -434,12 +434,12 @@ blockquote p {
 	width: 100%;
 }
 .nav-button.cmenu .nos {
-	transform: rotate(-45deg);
+/*	transform: rotate(-45deg);*/
 	margin-bottom: 0;
 	top: 8.5px;
 }
 .nav-button.cmenu .ncs {
-	transform: rotate(45deg);
+	/*transform: rotate(45deg);*/
 	margin-bottom: 0;
 	top: 7px;
 	width: 100%;
@@ -471,8 +471,8 @@ blockquote p {
 	width:800px;
 	bottom:80px;
 	top:80px;
-	background: #a90414;
-	/*background: #212121;*/
+	
+	background: #212121;
 	overflow: hidden;
 	z-index:106;
 }
@@ -487,6 +487,10 @@ blockquote p {
 .nav-holder-dec , .nav-holder , .nav-overlay  {
     position: fixed;
     -webkit-transform: translate3d(0, 0, 0) !important;
+
+	top: 0;
+    width: 100%;
+    bottom: 0;
 }
 .nav-overlay {
     top: 0;
@@ -525,17 +529,18 @@ blockquote p {
 .logo_menu img {
 	width: 200px;
     height: auto;
-	background: #a90414;
+	
 }
 nav.nav-inner {
 	float: left;
 	overflow: hidden;
-	width: 550px;
+	width: 100%;
+/*	width: 550px;*/
 	position: relative;
 }
 .nav-container {
- 	/*background: #212121;*/
-	 background: #a90414;
+ 	background: #212121;
+	
 	z-index: 20;
 	/*padding:20px 0;*/
 	margin-top: 35px;
@@ -2415,7 +2420,7 @@ section {
 .process-wrap li h4  {
 	float: left;
 	text-align: left;
-	font-weight: 600;
+
 	font-size: 18px;
 	position: relative;
 	color: #666;
@@ -3770,7 +3775,7 @@ section {
 .custom-form input[type="text"],
 .custom-form input[type=email],
 .custom-form input[type=password] {
-	float: left;
+	
 	border: none;
 	border: 1px solid #eee;
 	background: #fff;
@@ -4059,17 +4064,19 @@ section.article {
 	text-align: left;
 }
 .blog-btn-filter {
-	float: right;
-	margin-right:35px;
+	
 	position: relative;
-	top: 22px;
+
 }
 .blog-btn-filter ul {
 	display: none;
 	position: absolute;
-	top: 56px;
-	padding: 15px 20px;
-	background: #383838;
+    top: 117px;
+    padding: 15px 20px;
+    background: #383838;
+    z-index: 9;
+    width: 218px;
+    overflow: hidden;
 }
 .blog-btn-filter ul li {
 	float: left;
@@ -4091,14 +4098,16 @@ section.article {
 	font-size: 10px;
 	color: #fff;
 	letter-spacing: 2px;
+	margin: 29px 0;
 }
 .blog-btn i {
-	float: right;
+
 	margin-left: 15px;
 	position: relative;
 	top: 2px;
 	font-size: 12px;
 	color: #999;
+
 }
 .search-btn {
 	float:right;
