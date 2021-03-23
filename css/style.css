@@ -18,7 +18,7 @@
 ++ 404 ++
 ++ Responsive ++
 /*-------------Fonts---------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700,800|Teko:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 /*-------------General Style---------------------------------------*/
 
 html {
@@ -35,7 +35,7 @@ body {
 	text-align: center;
 	background: #292929;
 	color: #000;
-	font-family: 'Mukta', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 @-o-viewport {
 	width: device-width;
@@ -138,7 +138,7 @@ body {
 	font-weight:800;
     transform: translateY(150px);
 	text-transform:uppercase;
-	font-family: 'Teko', sans-serif;
+	
 	display:block; 
 }
 .page-load_bg span:before {
@@ -795,7 +795,7 @@ nav.nav-inner {
 	left:0;
 	right:0;
 	z-index:21;
-	font-family: 'Teko', sans-serif;
+	
 	font-weight:bold;
 	font-size:64px;
 	color:#fff;
@@ -1245,7 +1245,6 @@ p.interact,
 }
 .half-hero-wrap h1 {
 	color: #fff;
-    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-size: 48px;
     text-align: left;
@@ -1291,7 +1290,7 @@ p.interact,
 	width:100%;
 	padding-bottom:4px;
 	font-weight:700;
-	font-family: 'Teko', sans-serif;
+	
 }
 .carousel-title-wrap h2 a {
 	color:rgba(255,255,255,1);
@@ -1373,7 +1372,7 @@ p.interact,
 	position:relative;
 	font-size:56px;
 	font-weight:bold;
-	font-family: 'Teko', sans-serif;
+
 	color:#fff;
 	text-transform:uppercase;
 }
@@ -1829,7 +1828,7 @@ section {
 	text-align:left;
 	font-size:56px;
 	font-weight:bold;
-	font-family: 'Teko', sans-serif;
+	
 	color:#fff;
 	position:relative;
 }
@@ -1971,7 +1970,7 @@ section {
 	top:0;
 	right:0;
 	color:  #F7F7F7;
-	font-family: 'Teko', sans-serif;
+	
 	font-size:124px;
 	font-weight:bold;
 }
@@ -2427,7 +2426,7 @@ section {
 	margin-bottom: 36px;
 	padding-left: 80px;
 	text-transform:uppercase;
-	font-family: 'Teko', sans-serif;
+	
 }
 .process-wrap li .process-details h6  {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -2480,7 +2479,7 @@ section {
 	z-index: 11;
 	color:  #ccc;
 	font-size: 60px;
- 	font-family: 'Teko', sans-serif;
+ 	
 	font-weight: bold;
 }
 /* --------- 3d cards  --------------------------------------*/
@@ -2744,7 +2743,7 @@ section {
     font-size: 28px;
 	z-index:20;
 	font-weight:800;
-	font-family: 'Teko', sans-serif;
+	
 }
 .swiper-slide-active .testimonilas-text  {
      background: #f9f9f9	 
@@ -3700,7 +3699,7 @@ section {
 	color:#666;
 	padding-bottom:5px;
 	font-weight:600;
-	font-family: 'Teko', sans-serif;
+	
 	text-transform:uppercase;
 } 
 .contacts-wrap li a {
