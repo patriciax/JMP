@@ -4690,7 +4690,9 @@ nav.nav-inner , .contacts-wrap li {
 	color: #c5040d!important;
 }
 p{
-	font-family: 'Montserrat', sans-serif!important;
+    /* font-family: 'Montserrat', sans-serif!important; */
+    font-family: 'Lato';
+    font-size: 14px;
 }
 .fl-btn {
 	background: #a90414!important;
