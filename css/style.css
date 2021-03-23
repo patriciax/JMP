@@ -178,7 +178,7 @@ blockquote:before {
 	opacity: 0.4
 }
 blockquote p {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	
 	font-style: italic;
 	color: #666;
 }
@@ -2429,7 +2429,7 @@ section {
 	
 }
 .process-wrap li .process-details h6  {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	
 	font-style: italic;
 	color:#666;
 	text-align: left;
@@ -4234,7 +4234,7 @@ section.article {
 }
 .comment-meta,
 .comment-meta a {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	
 	font-style: italic;
 	font-size: 12px;
 	letter-spacing: 1px;
