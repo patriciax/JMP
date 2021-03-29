@@ -529,6 +529,8 @@ blockquote p {
 .logo_menu img {
 	width: 200px;
     height: auto;
+	margin-top: 50px;
+    margin-bottom: 50px;
 	
 }
 nav.nav-inner {
