@@ -252,6 +252,7 @@ blockquote p {
 	background-position: center;
 	background-repeat: repeat;
 	background-origin: content-box;
+	hight:60vh;
 }
 .overlay {
 	position: absolute;
@@ -4100,6 +4101,9 @@ section.article {
 	color: #fff;
 	letter-spacing: 2px;
 	margin: 29px 0;
+	    width: 218px;
+		display: flex;
+    justify-content: space-between;
 }
 .blog-btn i {
 
@@ -4709,9 +4713,16 @@ p{
 }
 
 .form-contact{
-	display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
 }
+.form-contact div{
+	width: 48%;
+}
+
 .form-contact input{
 	border: 0;
     padding: 10px 10px;
@@ -4722,6 +4733,106 @@ textarea{
 	border: 0;
     padding: 10px 10px;
 }
+.form-contact textarea{
+    width: 100%;
+}
 .form-contact input{
 	margin-right: 10px;
+}
+.header-social i{
+color:#fff;
+}
+.tooltip-i{
+	position: relative;
+}
+.tooltip-i_txt{
+	opacity: 0;
+	position: absolute;
+    height: 45px;
+    line-height: 45px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 0;
+    left: 100%;
+    width: 123px;
+    background: #292929;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    transition: all 300ms linear;
+    color: #fff;
+}
+.tooltip-i:hover .tooltip-i_txt{
+	opacity: 1;
+}
+
+.contacts-wrap  li h4{
+	color:#383838!important;
+}
+div.swiper-5 div.swiper-slide {
+
+	color: #fff;
+	text-align: center;
+	font-size: 1.1em;
+	outline: 0;
+	background-color: #4899DD;
+  }
+div.swiper-5 .swiper-button-prev {
+	background: none;
+}
+.services-slider .swiper-button-prev:before {
+	position: absolute;
+    content: "\f053";
+    font-family: 'Font';
+    font-weight: bold;
+	color: #ffffff;
+    margin-top: 10px;
+    z-index: 9999;
+    background: #c5040d;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div.swiper-5 .swiper-button-next {
+	background: none;
+}
+.services-slider .swiper-button-next:before {
+	position: absolute;
+    content: "\f054";
+    font-family: 'Font';
+    font-weight: bold;
+	color: #ffffff;
+    margin-top: 10px;
+    z-index: 9999;
+    background: #c5040d;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-slider  .swiper-button-next,.services-slider .swiper-button-prev {
+	  top: 20%;
+	  background-image: none;
+}
+.services-slider  .swiper-button-prev{
+	left: 88%;
+}
+.services-slider  .swiper-button-next{
+	right: 25px;
+}
+.services-content i{
+	margin-left: 10px;
+    font-size: 15px;
+}
+.swiper-pagination {
+	position: absolute;
+    top: 0;
+    right: 0;
+    color: #F7F7F7;
+    font-size: 124px;
+    font-weight: bold;
+    text-align: end;
 }

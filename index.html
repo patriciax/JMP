@@ -45,26 +45,30 @@
       <!-- nav-button-wrap end-->
       <div class="header-social">
         <ul>
-          <li>
-            <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+          <li class="tooltip-i">
+            <a href="#" target="_blank"> <i class="fa fa-briefcase" aria-hidden="true"></i>
             </a>
+             <span class="tooltip-i_txt">Our branches</span>
           </li>
-          <li>
+          <li class="tooltip-i">
             <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <span class="tooltip-i_txt">Linkedin</span>
           </li>
           <li class="linea"></li>
-          <li>
+          <li class="tooltip-i">
             <a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
             </a>
+            <span class="tooltip-i_txt">Phone</span>
           </li>
-          <li>
+          <li class="tooltip-i">
             <a href="#" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
+            <span class="tooltip-i_txt">Contact</span>
           </li>
         </ul>
       </div>
       <div class="folio-btn">
-        <a class="folio-btn-item aja scroll-link fbgs" href="#footer"><i class="fa fa-industry" aria-hidden="true"></i>
+        <a class="folio-btn-item aja " href="contact.html"><i class="fa fa-industry" aria-hidden="true"></i>
         </a>
         <span class="folio-btn-tooltip">Contact</span>
       </div>
@@ -254,38 +258,9 @@
                     </div>
                   </div>
                   <!-- swiper-slide end-->
-                  <!-- swiper-slide
-                  <div class="swiper-slide">
-                    <div class="half-hero-wrap">
-                      <div class="pr-bg"></div>
-                      <div class="rotate_text">12 december 2019</div>
-                      <h1>
-                        Old and Modern <br />
-                        cars on the <span>Newyork</span> <br />
-                        streets
-                      </h1>
-                      <h4>
-                        Praesent eu massa vel diam laoreet elementum ac sed
-                        felis. Donec suscipit ultricies risus sed mollis.
-                        Donec volutpat porta risus posuere imperdiet.
-                      </h4>
-                      <div class="clearfix"></div>
-                      <a href="portfolio-single.html" class="btn ajax fl-btn color-bg">View project</a>
-                    </div>
-                  </div>-->
-
                 </div>
               </div>
             </div>
-           <!---- <div class="hero-slider_control-wrap hiddec-anim">
-              <div class="hsc hsc-prev">
-                <span><i class="fal fa-angle-left"></i></span>
-              </div>
-              <div class="hsc hsc-next">
-                <span><i class="fal fa-angle-right"></i></span>
-              </div>
-            </div>---->
-            <!--- <div class="hero-slider-wrap_pagination hiddec-anim"></div>--->
             <div class="hero-dec hiddec-anim"></div>
           </div>
           <!-- hero-slider-wrap  end-->
@@ -308,13 +283,6 @@
             </div>
           </div>
           <!-- imagens del slider-->
-
-
-
-
-
-
-
 
           <!-- hero  elements-->
           <div class="hero-border hb-top"></div>
@@ -347,23 +315,21 @@
                     <a class="scroll-link fbgs" href="#sec3" data-bgscr="images/bg/long/5.jpg"
                       data-bgtex="services"><span>Services</span></a>
                   </li>
-                  <li>
+                  <!---<li>
                     <a class="" href="resource.html" data-bgscr="images/bg/long/3.jpg"><span></span></a>
+                  </li>--->
+                  <li>
+                    <a class="scroll-link fbgs" href="#sec5" data-bgscr="images/bg/long/13.jpg"
+                      data-bgtex="resume"><span>RENTALS</span></a>
                   </li>
                   <li>
                     <a class="scroll-link fbgs" href="#sec5" data-bgscr="images/bg/long/13.jpg"
-                      data-bgtex="resume"><span>RESOURCE</span></a>
+                      data-bgtex="resume"><span>MARKETS</span></a>
                   </li>
                   <li>
                     <a class="" href="contact.html" data-bgscr="images/bg/long/4.jpg"
                       data-bgtex="clients"><span>CONTACT</span></a>
                   </li>
-                  <li>
-                    <a class=" btn-nas" href="careers.html" data-bgscr="images/bg/long/4.jpg"><span> <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    </span></a>
-                  </li>
-
-
                 </ul>
               </nav>
               <div class="arrowpagenav"></div>
@@ -374,7 +340,8 @@
               <div class="col-wc_dec"></div>
               <div class="container">
                 <div class="section-title fl-wrap">
-                  <h3>About us</h3>
+                  <h3 id="color">About us</h3>
+                  <button id="cambiar" onclick="cambiarColor()">¡Cambiar!</button>
                   <p>
                     John M Phillips is an independent energy services company, with an
                     international presence, providing a broad range of specialized
@@ -456,95 +423,90 @@
                     pulvinar.
                   </p>
                 </div>
-                <div class="cards-wrap fl-wrap">
-                  <div class="row">
-                    <!--card item -->
-                    <div class="col-md-4">
-                      <div class="content-inner fl-wrap">
-                        <div class="content-front">
-                          <div class="cf-inner">
-                            <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
-                            <div class="overlay overlay-service"></div>
-                            <div class="inner">
-                              <h2> DIRECTIONAL DRILLING
-                              </h2>
-                              <ul>
-                                <li>quality drilling equipment</li>
-                                <li>premium software</li>
-                                <li>experienced drillers</li>
-                              </ul>
+
+                <div class="container bg-color my-5 px-5 py-3 services-slider">
+                  <div class="swiper-5 swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="content-inner fl-wrap">
+                          <div class="content-front">
+                            <div class="cf-inner">
+                              <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                              <div class="overlay overlay-service"></div>
+                              <div class="inner">
+                                <h2> DIRECTIONAL DRILLING
+                                </h2>
+                                <ul>
+                                  <li>quality drilling equipment</li>
+                                  <li>premium software</li>
+                                  <li>experienced drillers</li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
+  
                         </div>
-
                       </div>
-                    </div>
-                    <!--card item end -->
-                    <!--card item -->
-                    <div class="col-md-4">
-                      <div class="content-inner fl-wrap">
-                        <div class="content-front">
-                          <div class="cf-inner">
-                            <div class="bg" data-bg="http://imgfz.com/i/P9vLMqf.png"></div>
-                            <div class="overlay overlay-service"></div>
-                            <div class="inner">
-                              <h2> FISHING
-
-                              </h2>
-                              <ul>
-                                <li>cased-hole</li>
-                                <li>open-hole</li>
-                                <li>thru-tubing downhole fishing tools</li>
-                              </ul>
+                      <div class="swiper-slide">
+                        <div class="content-inner fl-wrap">
+                          <div class="content-front">
+                            <div class="cf-inner">
+                              <div class="bg" data-bg="http://imgfz.com/i/P9vLMqf.png"></div>
+                              <div class="overlay overlay-service"></div>
+                              <div class="inner">
+                                <h2> FISHING
+  
+                                </h2>
+                                <ul>
+                                  <li>cased-hole</li>
+                                  <li>open-hole</li>
+                                  <li>thru-tubing downhole fishing tools</li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
+  
                         </div>
-
                       </div>
-                    </div>
-                    <!--card item end -->
-                    <!--card item -->
-                    <div class="col-md-4">
-                      <div class="content-inner fl-wrap">
-                        <div class="content-front">
-                          <div class="cf-inner">
-                            <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
-                            <div class="overlay overlay-service"></div>
-                            <div class="inner">
-                              <h2> WORKOVER
-                              </h2>
-                              <ul>
-                                <li>thru-tubing tools</li>
-                                <li> fishing
-                                  tool</li>
-                                <li>milling tools</li>
-                                <li>pumps</li>
-                                <li> power swivels</li>
-                              </ul>
+                      <div class="swiper-slide">
+                        <div class="content-inner fl-wrap">
+                          <div class="content-front">
+                            <div class="cf-inner">
+                              <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                              <div class="overlay overlay-service"></div>
+                              <div class="inner">
+                                <h2> WORKOVER
+                                </h2>
+                                <ul>
+                                  <li>thru-tubing tools</li>
+                                  <li> fishing
+                                    tool</li>
+                                  <li>milling tools</li>
+                                  <li>pumps</li>
+                                  <li> power swivels</li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
+  
                         </div>
-
                       </div>
+                  
                     </div>
-                    <!--card item end -->
-
+                    
                   </div>
+                    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    
+                  <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="cards-wrap fl-wrap">
                
-
-
-
-
-
-
-
-
-
-
-
                   
                 </div>
-                <div class="sec-number">02.</div>
+                <!----<div class="sec-number">02.</div>--->
               </div>
             </section>
             <!--section end -->
@@ -604,19 +566,19 @@
                     </div>
                     <div class="footer-box-item fl-wrap">
                       <form action="" class="form-contact">
-                        <div style="margin-right: 40px;">
+                        <div >
                           <input type="text" placeholder="name">
                         </div>
                         <div>
                           <input type="text" placeholder="email">
                         </div>
-                        <div style="margin-right: 40px;">
+                        <div >
                           <input type="text" placeholder="company">
                         </div>
                         <div>
                           <input type="text" placeholder="address">
                         </div>
-                        <div>
+                        <div style="    width: 100%;">
                           <textarea name="" placeholder="message" id="" cols="30" rows="5"></textarea>
                         </div>
 
@@ -696,6 +658,14 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/scripts.js"></script>
+
+  <script>
+		function cambiarColor() {
+			color.innerHTML=color.innerHTML=="ABOUT US"?"amarillo":"ABOUT US";
+		}
+		</script>
+
+
 </body>
 
 </html>
